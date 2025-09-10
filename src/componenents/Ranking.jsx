@@ -3,13 +3,13 @@ import SingleRankingItem from "./SingleRankingItem";
 export default function Ranking() {
   const data = [
     {
-      image: "../assets/image-retro-pcs.jpg",
+      image: "/image-retro-pcs.jpg",
       number: "01",
       title: "Reviving Retro PCs",
       para: "What happens when old PCs are given modern upgrades?",
     },
     {
-      image: "assets/image-top-laptops.jpg",
+      image: "/image-top-laptops.jpg",
       number: "02",
       title: "Top 10 Laptops of 2022",
       para: "Our best picks for various needs and budgets",
