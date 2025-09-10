@@ -18,10 +18,10 @@ export default function New() {
   ]);
 
   return (
-    <section className="bg-my-veryDarkBlue mt-12 grid gap-5 p-4">
+    <section className="bg-my-veryDarkBlue mt-12 grid gap-5 p-4 md:mt-8 xl:mt-0 xl:basis-1/3">
       <h2 className="text-my-softOrange text-2xl font-bold">New</h2>
-      {news.map((item) => (
-        <SingleNews title={item.title} para={item.para} />
+      {news.map((item, i) => (
+        <SingleNews title={item.title} para={item.para} key={i} />
       ))}
     </section>
   );

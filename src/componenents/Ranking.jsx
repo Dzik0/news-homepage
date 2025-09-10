@@ -22,13 +22,14 @@ export default function Ranking() {
     },
   ];
   return (
-    <section className="mt-10 grid gap-8">
-      {data.map((item) => (
+    <section className="mt-10 grid gap-8 xl:grid-cols-3">
+      {data.map((item, i) => (
         <SingleRankingItem
           image={item.image}
           number={item.number}
           title={item.title}
           para={item.para}
+          key={i}
         />
       ))}
     </section>

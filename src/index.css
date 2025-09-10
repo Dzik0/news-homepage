@@ -10,6 +10,9 @@
   --color-my-veryDarkBlue: hsl(240, 100%, 5%);
 
   --tracking-4: 0.4rem;
+
+  --breakpoint-md: 720px;
+  --breakpoint-xl: 1200px;
 }
 
 body {
