@@ -1,3 +1,15 @@
+import HeaderMobile from "./componenents/HeaderMobile";
+import Hero from "./componenents/Hero";
+import New from "./componenents/New";
+import Ranking from "./componenents/Ranking";
+
 export default function App() {
-  return <h1 className="bg-red-500">Welcome World</h1>;
+  return (
+    <div className="grid gap-7 pb-12">
+      <HeaderMobile />
+      <Hero />
+      <New />
+      <Ranking />
+    </div>
+  );
 }

@@ -1,1 +1,27 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@theme {
+  --color-my-softRed: hsl(5, 85%, 63%);
+  --color-my-softOrange: hsl(35, 77%, 62%);
+  --color-my-offWhite: hsl(36, 100%, 99%);
+  --color-my-grayishBlue: hsl(233, 8%, 79%);
+  --color-my-darkGrayishBlue: hsl(236, 13%, 42%);
+  --color-my-veryDarkBlue: hsl(240, 100%, 5%);
+
+  --tracking-4: 0.4rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  padding: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
