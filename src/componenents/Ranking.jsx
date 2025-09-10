@@ -3,19 +3,19 @@ import SingleRankingItem from "./SingleRankingItem";
 export default function Ranking() {
   const data = [
     {
-      image: "/image-retro-pcs.jpg",
+      image: "news-homepage/image-retro-pcs.jpg",
       number: "01",
       title: "Reviving Retro PCs",
       para: "What happens when old PCs are given modern upgrades?",
     },
     {
-      image: "/image-top-laptops.jpg",
+      image: "news-homepage/image-top-laptops.jpg",
       number: "02",
       title: "Top 10 Laptops of 2022",
       para: "Our best picks for various needs and budgets",
     },
     {
-      image: "/image-gaming-growth.jpg",
+      image: "news-homepage/image-gaming-growth.jpg",
       number: "03",
       title: "THe Growth of Gaming",
       para: "How the pandemic as sparked fresh opportunites",
